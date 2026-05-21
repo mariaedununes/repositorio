@@ -1,10 +1,10 @@
 :root{
     --cor-de-fundo: #1E1E1E;
-    --verde: #6FFF57;
+    --verde: #ff3895;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(58, 55, 94, 0.3);
+    --botao-ativo: #56375e;
+    --botao-inativo: rgba(93, 55, 94, 0.5);
+    --texto-fundo: rgba(88, 55, 94, 0.3);
 }
 
 body{
@@ -54,4 +54,20 @@ body{
 .ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
+}
+
+.aba-conteudo {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
 }
